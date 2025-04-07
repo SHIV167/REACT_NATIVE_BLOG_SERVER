@@ -27,7 +27,7 @@ app.use("/api/v1/post", require("./routes/postRoutes"));
 const PORT = process.env.PORT || 8080;
 
 //home
-app.get("/",(req, res)=>{req.status(200).send({"success": true, "msg": "Node Server Started Successfully"
+app.get("/",(req, res)=>{res.status(200).send({"success": true, "msg": "Node Server Started Successfully"
 })
                        
 })
