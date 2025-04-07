@@ -26,6 +26,9 @@ app.use("/api/v1/post", require("./routes/postRoutes"));
 //PORT
 const PORT = process.env.PORT || 8080;
 
+//home
+
+
 //listen
 app.listen(PORT, () => {
   console.log(`Server Runnning ${PORT}`.bgGreen.white);
